@@ -1,0 +1,228 @@
+AncId, Desc1, Desc2, Branch Length 1, Branch Length 2
+278, MW079419.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Malta, MW079421.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Malta, 0.0000002867, 0.0002616950
+426, MW634052.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, MW751087.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Kenya, 0.0000000000, 0.0000000000
+396,   278,   426, 0.0002616763, 0.0000000000
+434, MW227482.1:21558..25379 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Bahrain, MW540076.1:21553..25374 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0002616577
+408, MW035461.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   434, 0.0000000000, 0.0000000000
+414,   396,   408, 0.0000000000, 0.0000000000
+447,   414, MW332233.1:21533..25354 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Russia, 0.0000000000, 0.0000000000
+415, MT428553.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Kazakhstan, MW521789.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0000000000
+280, MW655536.1:21559..25380 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Bahrain, MW485796.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Serbia, 0.0000002867, 0.0002616950
+397,   415,   280, 0.0000000000, 0.0002616763
+427, MW708830.1:21560..25381 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   397, 0.0000000000, 0.0000000000
+435, MW365003.1:21501..25322 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Chile,   427, 0.0000000000, 0.0000000000
+409, MW365272.1:21499..25320 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Chile,   435, 0.0002616763, 0.0000000000
+451,   447,   409, 0.0000000000, 0.0000000000
+448,   451, MW741552.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Russia, 0.0000000000, 0.0000000000
+452,   448, MT324062.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |South Africa, 0.0000000000, 0.0002616763
+411,   452, MW548327.1:21553..25374 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0000000000
+429, MW485806.1:21538..25359 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Italy, MW633895.1:21499..25320 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Argentina, 0.0000000000, 0.0002616763
+453,   411,   429, 0.0000000000, 0.0000000000
+399, MW400961.1:21533..25354 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Pakistan, MW320689.1:21531..25352 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Turkey, 0.0005235100, 0.0000000000
+425,   453,   399, 0.0000000000, 0.0000000000
+436, MT371049.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Sri Lanka, MW002807.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0000000000
+417, MW390858.1:21559..25380 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   436, 0.0000000000, 0.0000000000
+392,   425,   417, 0.0000000000, 0.0000000000
+446,   392, MW181758.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Hong Kong, 0.0000000000, 0.0000000000
+401, MW332553.1:21550..25371 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Bahrain, MW739632.1:21523..25344 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0002616926, 0.0000000000
+419,   401, MW672138.1:21508..25329 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Chile, 0.0000000000, 0.0002616763
+438, MT320538.2:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |France, MT510690.1:21503..25324 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Egypt, 0.0000000000, 0.0000000000
+445, MT653082.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Benin,   438, 0.0000000000, 0.0000000000
+410, MW521686.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   445, 0.0000000000, 0.0000000000
+428, MW495905.1:21518..25339 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   410, 0.0000000000, 0.0000000000
+406, MW447641.1:21555..25376 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Pakistan,   428, 0.0002616577, 0.0000000000
+450,   419,   406, 0.0000000000, 0.0000000000
+454, MW206409.1:21561..25382 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   450, 0.0000000000, 0.0000000000
+407, MW655537.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Bahrain,   454, 0.0000000000, 0.0000000000
+424,   446,   407, 0.0000000000, 0.0000000000
+439, MT292569.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Spain, MW751103.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Kenya, 0.0000000000, 0.0000000000
+443,   424,   439, 0.0000000000, 0.0000000000
+413, MW010028.1:21534..25355 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Egypt, MW634446.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0000000000
+432,   413, MW577029.1:21543..25364 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Netherlands, 0.0000000000, 0.0000000000
+279, MT953878.1:21538..25359 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Spain, MW452536.1:21535..25356 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Tunisia, 0.0000002867, 0.0002617113
+283, MW030266.1:21388..25209 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Peru, MW030261.1:21388..25209 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Peru, 0.0000000000, 0.0000000000
+284,   283, MW030279.1:21388..25209 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Peru, 0.0000000000, 0.0000000000
+437, MT326048.1:21532..25353 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, MW781832.1:21525..25346 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0000000000
+400, MW773122.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   437, 0.0002616971, 0.0000000000
+418, MW474332.1:21525..25346 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   400, 0.0000000000, 0.0000000000
+442,   284,   418, 0.0002616625, 0.0000000000
+403, MT627394.1:21539..25360 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Egypt,   442, 0.0000000000, 0.0000000000
+444,   279,   403, 0.0002616763, 0.0000000000
+395,   432,   444, 0.0000000000, 0.0000000000
+449, MT276323.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   395, 0.0000000000, 0.0000000000
+441, MW751344.1:21221..25042 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Kenya,   449, 0.0000000000, 0.0000000000
+420,   443,   441, 0.0000000000, 0.0000000000
+421,   420, MW288257.1:21526..25347 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0000000000
+440,   421, MW633906.1:21502..25323 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Argentina, 0.0000000000, 0.0000000000
+422,   440, MW674843.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Israel, 0.0000000000, 0.0000000000
+404,   422, MT396266.1:21553..25374 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Netherlands, 0.0000000000, 0.0002616622
+398,   404, MW356784.1:21560..25381 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Taiwan, 0.0000000000, 0.0000000000
+387,   398, MW553316.1:21508..25329 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Argentina, 0.0000000000, 0.0000000000
+402, MW633905.1:21499..25320 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Argentina, MW566898.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0002616926
+431,   402, MT576025.1:21539..25360 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Spain, 0.0000000000, 0.0000000000
+270, MW307831.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, MW634805.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0005234417, 0.0002616916
+251,   270, MW721120.1:21525..25346 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0005588616
+252,   251, MW634807.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0000000000
+304,   252, MW566478.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0002617127, 0.0002616725
+374, MW703390.1:21531..25352 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, MW493674.1:21555..25376 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0007853111, 0.0002616926
+309, MW173170.1:21552..25373 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   374, 0.0005234836, 0.0000000000
+364,   304,   309, 0.0002616725, 0.0000000000
+370,   364, MT263074.1:21554..25375 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Peru, 0.0000000000, 0.0002616577
+379,   370, MW673582.1:21552..25373 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0007852499
+390,   379, MT892966.1:21525..25346 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0000000000
+311,   390, MW332229.1:21533..25354 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Russia, 0.0000000000, 0.0000000000
+277, MW717676.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Finland, MW485255.1:21523..25344 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0005235774, 0.0002617979
+394,   311,   277, 0.0000000000, 0.0002616449
+381,   394, MW181752.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Hong Kong, 0.0000000000, 0.0000000000
+412,   381, MW634560.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0000000000
+430,   412, MT947153.1:21534..25355 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Egypt, 0.0000000000, 0.0000000000
+303, MW504614.1:21529..25350 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Egypt, MT906649.1:21556..25377 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |United Kingdom, 0.0000000000, 0.0002620958
+282, MW751082.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Kenya, MT972119.1:21524..25345 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, 0.0000000000, 0.0001454507
+367,   303,   282, 0.0002616971, 0.0001162313
+375, MW512847.1:21525..25346 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Iraq, MT919527.1:21533..25354 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Denmark, 0.0002616763, 0.0002617602
+372,   367,   375, 0.0000000000, 0.0000000000
+248, MW738616.1:21525..25346 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, MW545456.1:21551..25372 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000002867, 0.0002616748
+281, MW181514.1:21530..25351 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   248, 0.0000002867, 0.0007853477
+389, MW591206.1:21525..25346 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   281, 0.0000000000, 0.0002616925
+384,   372,   389, 0.0000000000, 0.0000000000
+300, MW485931.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Serbia, MW030238.1:21388..25209 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Peru, 0.0000000000, 0.0000000000
+298, MW030240.1:21388..25209 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Peru, MW030255.1:21388..25209 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Peru, 0.0000000000, 0.0000000000
+299,   300,   298, 0.0000000000, 0.0000000000
+297, MW452531.1:21533..25354 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Tunisia, MW422122.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Pakistan, 0.0000000000, 0.0005234823
+301,   299,   297, 0.0000000000, 0.0000000000
+290, MW653503.1:21559..25380 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, MW524953.1:21559..25380 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0002617067, 0.0000000000
+287, MW648153.1:21519..25340 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, MT955174.1:21533..25354 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Tunisia, 0.0002704426, 0.0000000000
+253, MW547487.1:21529..25350 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Egypt, MT658509.1:21529..25350 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Egypt, 0.0002617085, 0.0000000000
+289, MW031090.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   253, 0.0000000000, 0.0002616905
+288,   287,   289, 0.0000000000, 0.0000000000
+295,   290,   288, 0.0000000000, 0.0000000000
+310,   301,   295, 0.0002616763, 0.0002616926
+386,   384,   310, 0.0000000000, 0.0000000000
+371, MW298639.1:21517..25338 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Uruguay,   386, 0.0005234172, 0.0000000000
+377, MW634250.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   371, 0.0002621003, 0.0000000000
+433,   430,   377, 0.0000000000, 0.0000000000
+393,   431,   433, 0.0000000000, 0.0000000000
+405, MT601287.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Bangladesh,   393, 0.0000000000, 0.0000000000
+423,   387,   405, 0.0000000000, 0.0000000000
+391, MW342092.1:21544..25365 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Bahrain, MT981434.1:21524..25345 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0000000000
+416, MT827190.1:21538..25359 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Brazil,   391, 0.0000000000, 0.0000000000
+388, MT641722.1:21525..25346 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia,   416, 0.0000000000, 0.0000000000
+383, MW495914.1:21524..25345 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   388, 0.0000000000, 0.0000000000
+382,   423,   383, 0.0000000000, 0.0000000000
+385,   382, MW250352.1:21523..25344 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Egypt, 0.0000000000, 0.0000000000
+292, MW449397.1:21526..25347 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, MW521562.1:21557..25378 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0000000000
+294,   292, MW493960.1:21525..25346 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0002616766
+293,   294, MW776831.1:21559..25380 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0002617369
+291,   293, MW634778.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0002616773
+275, MW645555.1:21524..25345 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, MW702724.1:21532..25353 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000002867, 0.0000005728
+378,   275, MW467497.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Egypt, 0.0002616577, 0.0013094061
+306, MT263414.1:21490..25311 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, MW181737.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Hong Kong, 0.0000002867, 0.0005234853
+359,   306, MW340790.1:21540..25361 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Italy, 0.0002616894, 0.0005235081
+355, MN938384.1:21531..25352 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |China, MT049951.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |China, 0.0000000000, 0.0002616917
+365,   355, MT810119.1:21554..25375 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |South Korea, 0.0000000000, 0.0007853584
+349, MN997409.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, MN996530.1:21549..25370 |spike glycoprotein Severe acute respiratory syndrome coronavirus 2 |China, 0.0000000000, 0.0000000000
+350,   349, MN985325.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0000000000
+345, MT020880.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, MT039873.1:21560..25381 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |China, 0.0000000000, 0.0000000000
+343,   345, MT106054.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0000000000
+347,   343, MT027063.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0000000000
+348, MT019529.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |China, MT123290.1:21566..25387 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |China, 0.0000000000, 0.0000000000
+344, MT066176.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Taiwan,   348, 0.0000000000, 0.0000000000
+346,   347,   344, 0.0000000000, 0.0000000000
+330, MT276597.1:21543..25364 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Israel, MT344961.1:21560..25381 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0000000000
+326,   330, MT253699.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |China, 0.0000000000, 0.0000000000
+333,   326, MT192772.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Viet Nam, 0.0000000000, 0.0000002867
+320, MT327745.1:21559..25380 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Turkey, MT328034.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Greece, 0.0002616887, 0.0002616757
+316,   320, MT007544.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, 0.0000000000, 0.0002616917
+318,   316, MT093571.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Sweden, 0.0000000000, 0.0002616917
+314, MT039890.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |South Korea, MT350282.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Brazil, 0.0002617103, 0.0002616916
+315,   318,   314, 0.0000000000, 0.0000000000
+271, MT396245.2:21533..25354 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |India, MW193966.2:21518..25339 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |India, 0.0000000000, 0.0000002867
+321,   315,   271, 0.0000000000, 0.0002616895
+317, MN996527.1:21530..25351 |spike glycoprotein Severe acute respiratory syndrome coronavirus 2 |China, MT263469.1:21502..25323 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0002616757, 0.0002616888
+319,   317, MW466795.1:21562..25383 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |South Korea, 0.0000000000, 0.0000000000
+325,   319, MT114413.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Hong Kong, 0.0000000000, 0.0000000000
+327, MT077125.1:21507..25328 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Italy, MT956915.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Spain, 0.0000000000, 0.0000000000
+329, MT291830.1:21475..25296 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |China, MT304474.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |South Korea, 0.0000000000, 0.0000000000
+331,   329, MT262993.1:21527..25348 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Pakistan, 0.0000000000, 0.0000000000
+272, MT072688.1:21548..25369 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Nepal, MW294011.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Ecuador, 0.0000000000, 0.0000000000
+273, MT039888.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   272, 0.0000000000, 0.0000000000
+274, MN994467.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   273, 0.0000000000, 0.0000000000
+302, MN988713.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   274, 0.0000000000, 0.0001636775
+323,   331,   302, 0.0000000000, 0.0000979891
+328,   327,   323, 0.0000000000, 0.0000000000
+324,   325,   328, 0.0000000000, 0.0000000000
+322,   321,   324, 0.0000000000, 0.0000000000
+332, MT256924.2:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Colombia,   322, 0.0000002867, 0.0000000000
+336,   333,   332, 0.0000000000, 0.0000000000
+334, MT066156.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Italy,   336, 0.0000000000, 0.0000000000
+335, MT121215.1:21563..25384 |S protein Severe acute respiratory syndrome coronavirus 2 |China,   334, 0.0000000000, 0.0000000000
+337, LC529905.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Japan,   335, 0.0000000000, 0.0000000000
+338, MT123293.2:21557..25378 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |China,   337, 0.0000000000, 0.0000000000
+341, MT126808.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Brazil,   338, 0.0000000000, 0.0000000000
+340, MT152824.1:21561..25382 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   341, 0.0000000000, 0.0000000000
+339, MT135042.1:21563..25384 |S protein Severe acute respiratory syndrome coronavirus 2 |China,   340, 0.0000000000, 0.0000000000
+352, MN994468.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   339, 0.0000000000, 0.0000000000
+342,   346,   352, 0.0000000000, 0.0000000000
+351, MN996528.1:21563..25384 |spike glycoprotein Severe acute respiratory syndrome coronavirus 2 |China,   342, 0.0000000000, 0.0000000000
+354,   350,   351, 0.0000000000, 0.0000000000
+353, NC 045512.2:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |China,   354, 0.0000000000, 0.0000000000
+356,   365,   353, 0.0000000000, 0.0000000000
+357,   359,   356, 0.0000000000, 0.0000000000
+361, MT020781.2:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Finland,   357, 0.0002616895, 0.0000000000
+305, MW491120.1:21523..25344 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   361, 0.0010762493, 0.0002616755
+307,   378,   305, 0.0000000000, 0.0000000000
+358,   291,   307, 0.0002616794, 0.0000000000
+380, MW365208.1:21499..25320 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Chile,   358, 0.0000000000, 0.0000000000
+373, MT641765.1:21525..25346 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia,   380, 0.0000000000, 0.0000000000
+369,   385,   373, 0.0000000000, 0.0000000000
+267, MW320731.1:21523..25344 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, MT971254.1:21525..25346 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, 0.0000000000, 0.0002617027
+266,   267, MW320763.1:21518..25339 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, 0.0000000000, 0.0000000000
+264,   266, MW155369.1:21525..25346 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, 0.0000000000, 0.0000000000
+259,   264, MW320749.1:21516..25337 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, 0.0000000000, 0.0000000000
+268, MW184067.1:21525..25346 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, MW321243.1:21516..25337 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, 0.0000000000, 0.0000000000
+263, MW320808.1:21524..25345 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, MT969384.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, 0.0002617026, 0.0000000000
+262,   268,   263, 0.0000000000, 0.0000000000
+261,   262, MT972904.1:21525..25346 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, 0.0000000000, 0.0000000000
+265,   261, MW184230.1:21525..25346 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, 0.0000000000, 0.0000000000
+249, MW185151.1:21538..25359 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, MW277346.1:21524..25345 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, 0.0000000000, 0.0000005221
+258,   249, MT971202.1:21525..25346 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, 0.0002616838, 0.0002616888
+256, MW157192.1:21489..25310 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, MT971060.1:21559..25380 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, 0.0002694717, 0.0000000000
+257, MW320754.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, MT971050.1:21525..25346 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, 0.0000000000, 0.0000000000
+254,   256,   257, 0.0000000000, 0.0000000000
+255,   258,   254, 0.0000000000, 0.0000000000
+260,   265,   255, 0.0000000000, 0.0000000000
+269,   259,   260, 0.0000000000, 0.0000000000
+285, MW295556.1:21557..25378 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Tunisia,   269, 0.0002616888, 0.0002616888
+286, MW505982.1:21546..25367 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |France,   285, 0.0000000000, 0.0000000000
+368,   369,   286, 0.0000000000, 0.0002616757
+296, MW768957.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Hong Kong, MW368700.1:21521..25342 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |India, 0.0002616960, 0.0005236680
+363, MT612196.1:21525..25346 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia,   296, 0.0002749979, 0.0002611224
+313, MW645803.1:21524..25345 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA,   363, 0.0000000000, 0.0000000000
+362,   368,   313, 0.0000000000, 0.0000005733
+376,   362, MW093557.1:21524..25345 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000000000, 0.0000000000
+308,   376, MW523401.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Ghana, 0.0000000000, 0.0000000000
+312, MT358637.1:21563..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |India, MW181750.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Hong Kong, 0.0002599437, 0.0000000000
+366, MT745637.1:21555..25376 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia,   312, 0.0000000000, 0.0000005734
+360, MW523405.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Ghana,   366, 0.0000000000, 0.0000005725
+276,   308,   360, 0.0000000000, 0.0000005725
+246,   276, MW320925.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, 0.0000000000, 0.0005824588
+245,   246, MW751079.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Kenya, 0.0000000000, 0.0008470058
+247, MT198651.1:21509..25330 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Spain, MT612177.1:21518..25339 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Australia, 0.0003434688, 0.0000000000
+250,   245,   247, 0.0002618256, 0.0000000000
+243,   250, MT890215.1:21524..25345 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Ghana, 0.0002618419, 0.0000000000
+244,   243, MW555334.1:21559..25380 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |India, 0.0238518658, 0.0059453452
+241,   244, MW332241.1:21538..25344 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Russia, 0.7526964153, 0.7943257695
+242,   241, MT012098.1:21550..25368 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |India, 0.0553211020, 0.7209139014
+232, MT801041.1:21471..25265 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Turkey, MW514307.1:21519..25313 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Russia, 0.1336135193, 0.0000000000
+239,   242,   232, 0.2205355233, 1.0003410017
+229, LC594651.1:21536..25384 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Japan, LC594648.1:21512..25360 |surface glycoprotein Severe acute respiratory syndrome coronavirus 2 |Japan, 0.0000000000, 0.0000000000
+236, MW006558.1: 21580..25299 |surface glycoprotein partial Severe acute respiratory syndrome coronavirus 2 |USA,   229, 1.5413171581, 1.3420389763
+237,   239,   236, 0.5337947640, 0.1666392011
+230, MW751234.1: 21341..25042 |surface glycoprotein partial Severe acute respiratory syndrome coronavirus 2 |Kenya, MW750921.1: 21629..25330 |surface glycoprotein partial Severe acute respiratory syndrome coronavirus 2 |USA, 0.0000004861, 0.0000000000
+231, MW750890.1: 21629..25330 |surface glycoprotein partial Severe acute respiratory syndrome coronavirus 2 |USA,   230, 0.0000984257, 0.0005936865
+240,   237,   231, 0.0000738761, 1.1443279592
+234, MN938389.1: 1.. 107 |surface glycoprotein partial Severe acute respiratory syndrome coronavirus 2 |China, MN975266.1: 1.. 107 |surface glycoprotein partial Severe acute respiratory syndrome coronavirus 2 |China, 0.0000000000, 0.0000000000
+235, MN938388.1: 1.. 107 |surface glycoprotein partial Severe acute respiratory syndrome coronavirus 2 |China,   234, 0.0000000000, 0.0000000000
+238, MT232871.1: 1.. 157 |surface glycoprotein partial Severe acute respiratory syndrome coronavirus 2 |Iran,   235, 1.0260090254, 1.1486390239
+233, MT936998.1: 1.. 490 |surface glycoprotein partial Severe acute respiratory syndrome coronavirus 2 |Iraq,   238, 0.7174688773, 0.0002038750
+455,   240,   233, 11.6526660957, 12.2118534320
