@@ -19,6 +19,8 @@ from sklearn.metrics import accuracy_score
 from sklearn import metrics
 import numpy as np
 
+import pandas as pd
+
 #os.chdir("Sequences by Month")
 
 sequencesArray = []
@@ -37,8 +39,23 @@ fig = go.Figure(data=[go.Table(header=dict(values=['Sequence ID', 'Clustering La
 print(ac4_1.labels_)
 newLabels = np.asarray(con.conversion(4, ac4_1.labels_))
 
-print(da.accuracy(ac4_2.labels_,ac4_1.labels_)) # must use converted labels
-print("Purity score: ", da.purity(ac4_2.labels_, ac4_1.labels_))
+col_list = ["Cluster ID", "Sequence ID"]
+mega = pd.read_csv("MEGA_Cluster_ID's_Updated.csv", usecols=col_list)
+megaCluster = mega["Cluster ID"]
+megaNames = mega["Sequence ID"]
+
+mapped = {}
+for i in range(len(megaCluster)):
+    mapped[megaNames[i]] = megaCluster[i]
+
+orderedMega = []
+for i in sequencesArray:
+    orderedMega.append(mapped[i])
+
+print(orderedMega)
+
+print(da.accuracy(megaCluster,ac4_1.labels_)) # must use converted labels
+print("Purity score: ", da.purity(orderedMega, ac4_1.labels_))
 
 fig.update_layout(title_text = "Data Table of Sample Similarity Ratios + Clustering Labels")
 fig.show()
