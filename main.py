@@ -44,17 +44,21 @@ mega = pd.read_csv("MEGA_Cluster_ID's_Updated.csv", usecols=col_list)
 megaCluster = mega["Cluster ID"]
 megaNames = mega["Sequence ID"]
 
+for i in range(len(sequencesArray)):
+    sequencesArray[i] = sequencesArray[i].replace('[', '')
+    sequencesArray[i] = sequencesArray[i].replace(']', " ")
+    sequencesArray[i] = sequencesArray[i].replace(',', '')
+
 mapped = {}
 for i in range(len(megaCluster)):
     mapped[megaNames[i]] = megaCluster[i]
-
+    
 orderedMega = []
 for i in sequencesArray:
     orderedMega.append(mapped[i])
 
-print(orderedMega)
 
-print(da.accuracy(megaCluster,ac4_1.labels_)) # must use converted labels
+print(da.accuracy(orderedMega,ac4_1.labels_)) # must use converted labels
 print("Purity score: ", da.purity(orderedMega, ac4_1.labels_))
 
 fig.update_layout(title_text = "Data Table of Sample Similarity Ratios + Clustering Labels")
