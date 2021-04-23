@@ -13,9 +13,9 @@ from Bio import SeqIO
 from sklearn.preprocessing import normalize
 import os
       
-def agglomerative():
+def agglomerative(numClusters):
         
-    os.chdir("Sequences by Month")
+    #os.chdir("Sequences by Month")
     
     sampleArray = []
     f1 = open("refSeq.txt","r")
@@ -62,8 +62,8 @@ def agglomerative():
     
     combinedArr_normalized = normalize(combinedArr)
     
-    ac4_1 = AgglomerativeClustering(n_clusters=4, affinity='l1', linkage='average')
-    ac4_2 = AgglomerativeClustering(n_clusters=4, linkage='average')
+    ac4_1 = AgglomerativeClustering(n_clusters=numClusters, affinity='l1', linkage='average')
+    ac4_2 = AgglomerativeClustering(n_clusters=numClusters, linkage='average')
     
     plt.figure(figsize =(6, 6)) 
     plt.scatter(ratios_r_normal, ratios_v_normal, c = ac4_1.fit_predict(combinedArr_normalized), cmap ='rainbow') 

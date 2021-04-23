@@ -23,8 +23,8 @@ def conversion (numClusters, labels):
       if (x == 3):
         cluster3 = cluster3 + 1
     
-    Dictionary1 = {'cluster0': cluster0, 'cluster1': cluster1, 'cluster2': cluster2, 'cluster3': cluster3}
-    print (Dictionary1)
+    #Dictionary1 = {'cluster0': cluster0, 'cluster1': cluster1, 'cluster2': cluster2, 'cluster3': cluster3}
+    #print (Dictionary1)
 
     i = 0
     while (i <= 3):
@@ -64,8 +64,8 @@ def conversion (numClusters, labels):
       if (x == 2):
         cluster2 = cluster2 + 1
     
-    Dictionary1 = {'cluster0': cluster0, 'cluster1': cluster1, 'cluster2': cluster2}
-    print (Dictionary1)
+    #Dictionary1 = {'cluster0': cluster0, 'cluster1': cluster1, 'cluster2': cluster2}
+    #print (Dictionary1)
 
     lst = [None for x in range(len(labels))]
     i = 0
@@ -99,8 +99,7 @@ def conversion (numClusters, labels):
       if (x == 1):
         cluster1 = cluster1 + 1
     
-    Dictionary1 = {'cluster0': cluster0, 'cluster1': cluster1}
-    print (Dictionary1)
+    #Dictionary1 = {'cluster0': cluster0, 'cluster1': cluster1}
 
     lst = [None for x in range(len(labels))]
     i = 0
