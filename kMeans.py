@@ -11,7 +11,6 @@ from Bio import SeqIO
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 from scipy.cluster.hierarchy import dendrogram
-import os
   
 
 #os.chdir("Sequences by Month")
@@ -20,7 +19,7 @@ def meansK(numClusters):
   sequencesArray = []
   sampleString1 = ""
 
-  for record in SeqIO.parse("sequencesMaster.fasta", "fasta"):  
+  for record in SeqIO.parse("Sequences by Month/sequencesMaster.fasta", "fasta"):  
     sampleString1 = str(record.seq)
     sequencesArray.append(sampleString1)  # sequences array is really a list!
 
@@ -40,7 +39,7 @@ def meansK(numClusters):
   
   #predict the labels of clusters.
   label = kmeans.fit_predict(df)
-  print (label)
+  #print (label)
 
   #Getting unique labels
   u_labels = np.unique(label)
