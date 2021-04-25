@@ -26,7 +26,7 @@ import pandas as pd
 sequencesArray = []
 sampleString1 = ""
 
-for record in SeqIO.parse("all200Sequences.fasta", "fasta"):  
+for record in SeqIO.parse("Sequences by Month/all200Sequences.fasta", "fasta"):  
   sampleString1 = str(record.description)
   sequencesArray.append(sampleString1)
 
@@ -38,7 +38,7 @@ print(ac4_1.labels_)
 newLabels = np.asarray(con.conversion(4, ac4_1.labels_))"""
 
 col_list = ["Cluster ID", "Sequence ID"]
-mega = pd.read_csv("MEGA_Cluster_ID's_Updated.csv", usecols=col_list)
+mega = pd.read_csv("Sequences by Month/MEGA_Cluster_ID's_Updated.csv", usecols=col_list)
 megaCluster = mega["Cluster ID"]
 megaNames = mega["Sequence ID"]
 
@@ -58,19 +58,22 @@ for i in sequencesArray:
 # print purity scores for 2-4 clusters (agglomerative)
 for j in range (2,5):
     ac_1, ac_2 = ag.agglomerative(j)
-    #newLabels1 = np.asarray(con.conversion(j, ac_1.labels_))
-    #print(da.accuracy(orderedMega, newLabels1)) # must use converted labels
-    print("Purity score: ", da.purity(orderedMega, ac_1.labels_))
+    newLabels1 = np.asarray(con.conversion(j, ac_1.labels_))
+    print("For agglomerative L1 affinity,", j, "clusters")
+    print("Accuracy score:", da.accuracy(orderedMega, newLabels1)) # must use converted labels
+    print("Purity score:", da.purity(orderedMega, ac_1.labels_))
     
-    #newLabels2 = np.asarray(con.conversion(j, ac_2.labels_))
-    #print(da.accuracy(orderedMega, newLabels2)) # must use converted labels
-    print("Purity score: ", da.purity(orderedMega, ac_2.labels_))
+    print("\nFor agglomerative euclidian affinity,", j, "clusters")
+    newLabels2 = np.asarray(con.conversion(j, ac_2.labels_))
+    print("Accuracy score:", da.accuracy(orderedMega, newLabels2)) # must use converted labels
+    print("Purity score:", da.purity(orderedMega, ac_2.labels_), "\n")
 
-"""for i in range(2,5):
-    kLabels = k.meansK(i)
-    #newLabels = np.asarray(con.conversion(j, kLabels))
-    #print(da.accuracy(orderedMega, newLabels)) # must use converted labels
-    print("Purity score: ", da.purity(orderedMega, kLabels))"""
+# print purity scores for 2-4 clusters (kmeans)
+for j in range(2,5):
+    kLabels = k.meansK(j)
+    newLabels = np.asarray(con.conversion(j, kLabels))
+    print(da.accuracy(orderedMega, newLabels)) # must use converted labels
+    print("Purity score with ", i, " clusters: ", da.purity(orderedMega, kLabels))
     
 
 #fig.update_layout(title_text = "Data Table of Sample Similarity Ratios + Clustering Labels")
