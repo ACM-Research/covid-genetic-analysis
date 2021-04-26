@@ -9,16 +9,9 @@ import agglomerative as ag
 import kMeans as k
 import conversion as con
 import dataAnalysis as da
-import os
-
 import numpy as np
 from Bio import SeqIO
 import plotly.graph_objects as go
-
-from sklearn.metrics import accuracy_score
-from sklearn import metrics
-import numpy as np
-
 import pandas as pd
 
 #os.chdir("Sequences by Month")
@@ -35,13 +28,7 @@ sampleString1 = ""
 for record in SeqIO.parse("Sequences by Month/sequencesMaster.fasta", "fasta"):  
   sampleString1 = str(record.description)
   masterArray.append(sampleString1)
-  
-"""fig = go.Figure(data=[go.Table(header=dict(values=['Sequence ID', 'Clustering Label (n=4)', 
-                                                   'Clustering Label (n=4) V2'], fill_color = 'lightgreen'),
-                 cells=dict(values=[sequencesArray, ac4_1.labels_, ac4_2.labels_]))
-                     ])
-print(ac4_1.labels_)
-newLabels = np.asarray(con.conversion(4, ac4_1.labels_))"""
+
 
 for i in range(len(sequencesArray)):
     sequencesArray[i] = sequencesArray[i].replace('[', '')
@@ -83,6 +70,7 @@ for i in sequencesArray:
     orderedMega3.append(aggMapped3[i])
     orderedMega2.append(aggMapped2[i])
 
+
 # print purity scores for 2-4 clusters (agglomerative)
 for j in range (2,5):
     ac_1, ac_2 = ag.agglomerative(j)
@@ -90,11 +78,11 @@ for j in range (2,5):
     newLabels2 = np.asarray(con.conversion(j, ac_2.labels_))
     if (j == 2):
         print("For agglomerative L1 affinity,", j, "clusters")
-        print("Accuracy score:", da.accuracy(orderedMega2, newLabels1)) # must use converted labels
-        print("Purity score:", da.purity(orderedMega2, ac_1.labels_))
+        print("Accuracy score:", da.accuracy(orderedMega4, newLabels1)) # must use converted labels
+        print("Purity score:", da.purity(orderedMega4, ac_1.labels_))
         print("\nFor agglomerative euclidian affinity,", j, "clusters")
-        print("Accuracy score:", da.accuracy(orderedMega2, newLabels2)) # must use converted labels
-        print("Purity score:", da.purity(orderedMega2, ac_2.labels_), "\n")
+        print("Accuracy score:", da.accuracy(orderedMega4, newLabels2)) # must use converted labels
+        print("Purity score:", da.purity(orderedMega4, ac_2.labels_), "\n")
     
     if (j == 3):
         print("For agglomerative L1 affinity,", j, "clusters")
@@ -111,7 +99,6 @@ for j in range (2,5):
         print("\nFor agglomerative euclidian affinity,", j, "clusters")
         print("Accuracy score:", da.accuracy(orderedMega4, newLabels2)) # must use converted labels
         print("Purity score:", da.purity(orderedMega4, ac_2.labels_), "\n")
-    
     
 kMega4 = pd.read_csv("MEGA Generated Data/mega_no_partial_4.csv", usecols=col_list)
 kMega3 = pd.read_csv("MEGA Generated Data/mega_no_partial_3.csv", usecols=col_list)
@@ -156,5 +143,20 @@ for j in range(2,5):
         print("Accuracy score:", da.accuracy(KorderedMega4, newLabels)) # must use converted labels
         print("Purity score: ", da.purity(KorderedMega4, kLabels), "\n")
 
-#fig.update_layout(title_text = "Data Table of Sample Similarity Ratios + Clustering Labels")
-#fig.show()
+'''
+numClusters = [2, 3, 4]
+fig1 = go.Figure(data=[go.Table(header=dict(values=['Number of Clusters', 'Agglomerative L1', 'Agglomerative Euclidian', 
+                                                   'kMeans'], fill_color = 'lightgreen'),
+                 cells=dict(values=[numClusters, sequencesArray, ac4_1.labels_, ac4_2.labels_]))
+                     ])
+    
+fig1.update_layout(title_text = "Accuracy Scores")
+fig1.show()
+
+fig2 = go.Figure(data=[go.Table(header=dict(values=['Number of Clusters', 'Agglomerative L1', 'Agglomerative Euclidian', 
+                                                   'kMeans'], fill_color = 'lightgreen'),
+                 cells=dict(values=[numClusters, sequencesArray, ac4_1.labels_, ac4_2.labels_]))
+                     ])
+    
+fig2.update_layout(title_text = "Purity Scores")
+fig2.show()'''
