@@ -1,10 +1,10 @@
-# Application of Clustering Methods for Genetic Analaysis of SARS-CoV-2
+# Application of Clustering Methods for Genetic Analysis of SARS-CoV-2
 ## Poster  
 ![Covid_Genetic_Analysis_Research_Poster (1)-1](https://user-images.githubusercontent.com/71059181/116836694-5f69dd80-ab7c-11eb-8dd7-292cafb77365.png)
 
 ## Abstract
 
-The SARS-CoV-2 pandemic has affected many individuals and completely changed the way the world functions. To date, there have been over 150 million cases around the world, and counting. Similar to many resipiratory viruses, the COVID-19 virus has rapidly mutated into dozens of prolific strains. The current vaccine has been designed using the original strains sequence from Wuhan, China, however, there is reason for speculation that the vaccine may not be as affective with the other dominant strains. Our project aims to provide scientists with a tool to help them compare these strains and predict characteristics that can aid in determining key factors such as vaccine efficacy. This can also be used to assist public health officials target specific strains of any virus and develop further preventative measures.
+The SARS-CoV-2 pandemic has affected many individuals and completely changed the way the world functions. To date, there have been over 150 million cases around the world, and counting. Similar to many respiratory viruses, the COVID-19 virus has rapidly mutated into dozens of prolific strains. The current vaccine has been designed using the original strains sequence from Wuhan, China, however, there is reason for speculation that the vaccine may not be as affective with the other dominant strains. Our project aims to provide scientists with a tool to help them compare these strains and predict characteristics that can aid in determining key factors such as vaccine efficacy. This can also be used to assist public health officials target specific strains of any virus and develop further preventative measures.
 ## Primary Goals
 - **Speed**: Determine if clustering is quicker than MEGA
 - **Reliability**: Determine if clustering results accurately group sequences
@@ -12,7 +12,7 @@ The SARS-CoV-2 pandemic has affected many individuals and completely changed the
 
 ### _Data Retrieval_
 - Utilized [Severe Acute Respiratory Syndrome Coronavirus 2 Data Hub](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=SARS-CoV-2,%20taxid:2697049&ProtNames_ss=surface%20glycoprotein) to retrieve nucleotide sequnces of various strains
-- Manually donwloaded 228 sequences in .fasta format, ensuring 3-4 sequences from each of the 6 continents for each month from January 2020 - January 2021
+- Manually downloaded 228 sequences in .fasta format, ensuring 3-4 sequences from each of the 6 populated continents for each month from January 2020 - January 2021
 ### _Pre-Processing_
 - Parsed .fasta file, retrieving nucleotide sequences and sequence ID
 - Depending on Clustering method used, trimmed sequences to a uniform length
