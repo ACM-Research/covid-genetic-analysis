@@ -4,7 +4,7 @@
 
 ## Abstract
 
-The SARS-CoV-2 pandemic has affected many individuals and completely changed the way the world functions. To date, there have been over 150 million cases around the world, and counting. Similar to many respiratory viruses, the COVID-19 virus has rapidly mutated into dozens of prolific strains. The current vaccine has been designed using the original strains sequence from Wuhan, China, however, there is reason for speculation that the vaccine may not be as affective with the other dominant strains. Our project aims to provide scientists with a tool to help them compare these strains and predict characteristics that can aid in determining key factors such as vaccine efficacy. This can also be used to assist public health officials target specific strains of any virus and develop further preventative measures.
+The SARS-CoV-2 pandemic has affected many individuals and completely changed the way the world functions. To date, there have been over 150 million cases around the world, and counting. Similar to many respiratory viruses, the COVID-19 virus has rapidly mutated into dozens of prolific strains. The current vaccine has been designed using the original strains sequence from Wuhan, China. However, there is reason for speculation that the vaccine may not be as effective with the other dominant strains. Our project aims to provide scientists with a tool to help them compare these strains and predict characteristics that can aid in determining key factors such as vaccine efficacy. This can also be used to assist public health officials target specific strains of any virus and develop further preventative measures.
 ## Primary Goals
 - **Speed**: Determine if clustering is quicker than MEGA
 - **Reliability**: Determine if clustering results accurately group sequences
@@ -55,6 +55,9 @@ Sklearn, plotly, Pandas, numPy, Matplot, Biopython
 ![kmeans2clusters](https://user-images.githubusercontent.com/71059181/116838289-ace94900-ab82-11eb-8038-777bc7494563.png)
 ![kmeans3clusters](https://user-images.githubusercontent.com/71059181/116838290-ad81df80-ab82-11eb-8ff6-572af8834559.png)
 ![kmeans4clusters](https://user-images.githubusercontent.com/71059181/116838291-ad81df80-ab82-11eb-8a85-c6ea5b31bfc2.png)
+
+## Results
+![results](https://github.com/ACM-Research/covid-genetic-analysis/blob/main/Plots/performanceTable.png?raw=true)
 
 ## Conclusion + Future steps
 Our preliminary results show that there is promise to this methodology. Our models show that they perform better than random chance and with the proper adjustments, can be made to be highly accurate and efficient. It is also important to note that 9 different models were run simultaneously and produced results in under a minute, 4.5 times faster than MEGA. Ideally, these models can lead to efficient and correct predictions of vaccine efficacy, resistance and more on not only COVID but other fast-mutating viruses as well.
